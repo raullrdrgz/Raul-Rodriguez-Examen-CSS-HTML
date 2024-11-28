@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #17004e, #754aa7);
+}
+
+header {
+    background-color: #1b1a1a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a500;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    margin: 70px 20px 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #1b1a1a;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #1b1a1a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.figuras {
+    margin: 20px 0;
+}
+
+.figuras {
+    width: 100px;
+    height: 100px;
+}
+
+.cuadrado {
+    background-color: rgb(27, 3, 136);
+}
+
+.circulo {
+    background-color: rgb(27, 3, 136);
+    border-radius: 50%;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(27, 3, 136);
+}
+
+summary {
+    font-size: 20px;
+    color: purple;
+    font-style: italic;
+    margin: 20px 0;
+}
